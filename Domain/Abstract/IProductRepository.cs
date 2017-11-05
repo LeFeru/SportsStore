@@ -7,4 +7,4 @@ namespace SportsStore.Domain.Abstract
     {
         IEnumerable<Product> Products { get; }
     }
-}
+}
