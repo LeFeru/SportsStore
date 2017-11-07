@@ -1,9 +1,10 @@
-﻿using System.Linq;
-using System.Web.Mvc;
-using SportsStore.Domain.Abstract;
+﻿using SportsStore.Domain.Abstract;
 using SportsStore.Domain.Entities;
+using System.Linq;
+using System.Web.Mvc;
 namespace SportsStore.WebUI.Controllers
 {
+    [Authorize]
     public class AdminController : Controller
     {
         private IProductRepository repository;
